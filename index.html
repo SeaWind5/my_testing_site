@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image.png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image.png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+	
+	<title>
+			Тестовый сайт
+		</title>
+		<meta charset="utf-8">
+		<style>
+		td, th{border:2px solid red;text-align:center}
+		
+		table.tb1{border:2px solid red; border-collapse:collapse;width:80%;margin:auto;}
+		
+		table.tb2 td {border:2px solid blue;}
+		table.tb2{border:2px solid blue; border-collapse:collapse;width:80%;margin:auto;}
+		
+		table.tb3 td {border:2px solid yellow;}
+		table.tb3 {border:2px solid yellow; border-collapse:collapse;width:80%;margin:auto;}
+		</style>
+	
+	</head>
+	<body>
+		<h1 style="color:blue;">Заголовок <span style="color:red;"> 1</span> продолжение заголовка</h1>
+		<h2 style="color:#800080;"> Заголовок 2</h2>
+		<a name="z2"> <h3> Заголовок 3</h3></a>
+		<h4> Заголовок 4</h4>
+		<h5> Заголовок 5</h5>
+		<h6> Заголовок 6</h6>
+		
+		<a href="#z1">Список нумерованный</a>
+	<p>Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац <br>
+	Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Съешь еще этих мягких </p> 
+	французских булок <p>Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац Абзац </p>
+		
+		<!--Нумерованный список-->
+		<ol>
+			<li>Элемент 1</li>
+			<li>Элемент 2</li>
+			<li>Элемент 3</li>
+			<li>Элемент 4</li>
+			<li>Элемент 5</li>
+		</ol>
+		<!--Закладка-->
+		<a name="z1"> Закладка</a>
+		<!--Горизонтальная линия-->
+		<hr style="border-color:red; border-width:2px; background:magenta; height:5px; width:70%;">
+		
+		<!--Маркированный список-->
+		<ul>
+			<li>Элемент 1</li>
+			<li>Элемент 2</li>
+			<li>Элемент 3</li>
+			<li>Элемент 4</li>
+			<li>Элемент 5</li>
+		</ul>
+		<hr style="border-color:green;"><!--Горизонтальная линия-->
+		
+		<!--Список определений-->
+		<dl>
+			<dt>Информатика</dt>
+			<dd> Наука, изучающая </dd>
+			
+			<dt>Математика</dt>
+			<dd> Наука, изучающая </dd>
+		</dl>
+		
+		<!--бегущая строка--> <!--Картинка-->
+		<!--<marquee direction="right" scrollamount="20" loop="2"> 
+		<img src="images/walking duck.gif" alt="walking duck" style="display:block; margin:auto; width:300px;">
+		</marquee>-->
+		
+		<!--Гиперссылка-->
+		<a href="images/index2.html">Таблицы</a>
+		<p>
+		<table class="tb1">
+			<caption>Заголовок таблицы1</caption>
+			<tr>
+				<th>Ячейка1</th>
+				<th>Ячейка2</th>
+			</tr>
+			<tr>
+				<td>Ячейка3</td>
+				<td>Ячейка4</td>
+			</tr>
+		</table>
+		<p>
+		
+		<table class="tb2">
+			<caption>Заголовок таблицы2</caption>
+			<tr>
+				<td>Ячейка1</td>
+				<td>Ячейка2</td>
+			</tr>
+			<tr>
+				<td>Ячейка3</td>
+				<td>Ячейка4</td>
+			</tr>
+		</table>
+		<!--Таблица с объединением ячеек-->
+		<p>
+		<table class="tb3">
+			<tr align="center">
+				<td colspan="5">1</td>
+			</tr>
+			<tr align="center">
+				<td rowspan="3">2</td>
+				<td colspan="2">3</td>
+				<td colspan="2">4</td>
+			</tr>
+			<tr align="center">
+				<td rowspan="2">5</td>
+				<td>6</td>
+				<td>7</td>
+				<td>8</td>				
+			</tr>
+			<tr align="center">
+				<td colspan="3">9</td>
+			</tr>
+		</table>
+		
+		<a href="#z2">Переход на Заголовок 3</a>
+		<!--<a>target="_blank">текст ссылки</a>-->
+	</body>
+</html>
